@@ -1,91 +1,105 @@
 <!DOCTYPE HTML>
 <html lang="en">
+<header id="header" >
+
+    <img src="/Users/josefinemattsson/Desktop/restaurant-in-valkenswaard.jpg"/>
+    <h1> Welcome to BurgerOnline </h1>
+</header>
+
 <head>
+
     <title>Josefines hemsida</title>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-
-</body>
-</html>
 
 <body>
-<header>
-    <h1>Welcome to BurgerOnline</h1>
 
-</header>
-</body>
 
-<body>
 <main>
-    <section>
-        <header>
-            <h1>Select a burger</h1>
-        </header>
-    </section>
-    <section>
-        <header>
-            This is where you execute burger selection
-        </header>
-    </section>
 
-    <div style="float:left">
-        <section>
+        <section id="burgers">
+
             <header>
-                <h1>Healthy</h1>
+                 <h2>Select a burger</h2>
             </header>
-            <img src="https://i.dietdoctor.com/se/wp-content/2016/12/Meal-Delifresh-Low-Carb-1.jpg?auto=compress%2Cformat&w=1600&h=1032&fit=crop" alt="Span" title="Another in-line element" style="width: 150px;">
-        </section>
-        <ul>
-            <li>350 kcal</li>
-            <li>Gluten free</li>
-            <li>Contains lactose</li>
-        </ul>
-    </div>
+            <div class="wrapper">
 
-    <div style="float:left; margin-left:40px">
-        <section>
-            <header>
-                <h1>Vegan</h1>
+            <header style="color:white;">
+                This is where you execute burger selection
             </header>
-            <img src="https://www.korvbrodsbagarn.se/siteassets/receptbilder/brookyn_vegan_burger_recept_1170x790px.jpg" alt="Span" title="Another in-line element" style="width: 150px;">
-        </section>
-        <ul>
-            <li>500 kcal</li>
-            <li>Contains gluten</li>
-            <li>Lactose free</li>
-        </ul>
-    </div>
+            <div class="box a">
 
-    <div style="float:left; margin-left:40px">
-        <section>
-            <header>
-                <h1>Maximized</h1>
-            </header>
-            <img src="https://kurera.se/wp-content/uploads/2015/09/bigmac_460x330.jpg" alt="Span" title="Another in-line element" style="width: 150px;">
-        </section>
-        <ul>
-            <li>800 kcal</li>
-            <li>Contains gluten</li>
-            <li>Contains everything</li>
-        </ul>
-        ´</div>
+                <header>
+                    <h1>Healthy</h1>
+                </header>
+                <img src="https://i.dietdoctor.com/se/wp-content/2016/12/Meal-Delifresh-Low-Carb-1.jpg?auto=compress%2Cformat&w=1600&h=1032&fit=crop" alt="Span" title="Another in-line element" style="width: 150px;">
 
-    <section>
+                <ul>
+
+                    <li> Free from <span class="gluten">Gluten</span></li>
+                    <li>Contains <span class="lactose">Lactose</span></li>
+
+                </ul>
+            </div>
+
+
+            <div class="box b">
+
+                <header>
+                    <h1>Vegan</h1>
+                </header>
+                <img src="https://www.korvbrodsbagarn.se/siteassets/receptbilder/brookyn_vegan_burger_recept_1170x790px.jpg" alt="Span" title="Another in-line element" style="width: 150px;">
+
+                <ul>
+
+                    <li> Free from <span class="lactose">Lactose</span></li>
+                    <li>Contains <span class="gluten">Gluten</span></li>
+
+                </ul>
+
+             </div>
+
+                <div class="box c">
+
+                <header>
+                    <h1>Maximized</h1>
+                </header>
+                <img src="https://kurera.se/wp-content/uploads/2015/09/bigmac_460x330.jpg" alt="Span" title="Another in-line element" style="width: 150px;">
+
+                <ul>
+
+
+                    <li>Contains <span class="gluten">Gluten</span></li>
+                    <li>Contains <span class="everything">Everything</span></li>
+
+                </ul>
+            </div>
+            </div>
+
+            <div style="Clear:left">
+                <header>
+                    <h1>  </h1>
+                </header>
+            </div>
+
+        </section>
+
+
+    <section id="customers">
+    <div style="Clear:left">
+
         <header>
-            <h1 style="clear:left">Customer information </h1>
+            <h2 >Customer information </h2>
         </header>
-    </section>
-    <header>
+
         This is where you provide necessary information
-    </header>
+    </div>
 
-    <section>
+
         <header>
             <h1> Delivery information: </h1>
         </header>
-    </section>
-
 
     <p>
         <label for="firstname">Full name</label><br>
@@ -108,9 +122,8 @@
     </p>
 
 
-    <section>
         <label for="payment options">Payment options</label>
-    </section>
+
     <select id="payment options" name="Po">
         <option>Credit card</option>
         <option>Klarna</option>
@@ -138,16 +151,18 @@
         <label for="Non-binary">Non-binary</label>
     </div>
 
-    <div>
+    <div style="margin-bottom: 15px;">
         <input type="radio" id="Undisclosed" name="jos" value="Undisclosed">
         <label for="Undisclosed">Undisclosed</label>
     </div>
 
+    </section>
 
-    <button type="submit">
+    <button id="buttonid">
         <img src="https://arbetsmedlarna.se/wp-content/uploads/2020/12/check-1.png"style="width: 20px";>
         Place my order!
     </button>
+
 
 </main>
 
@@ -158,4 +173,4 @@
     &copy; 2021 Hamburgers online Inc.
 </footer>
 
-<body>
+</html>

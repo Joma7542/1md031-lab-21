@@ -1,1 +1,131 @@
-/*empty*/
+/* @import url("reset.css");*/
+/* @import url("https://fonts.googleapis.com/css?family=Droid+Serif|Share+Tech+Mono");*/
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
+body {
+    font-family: "Times new roman";
+    font-size: 12pt;
+}
+
+a, strong, em {
+    color: #0099ff;
+}
+
+p.info,
+#login p {
+    width: 80%;
+    margin: 1vw auto;
+}
+
+/* kommentera såhär  */
+
+.Lactose {
+    font-weight: bold;
+}
+
+.Gluten {
+    font-weight: bold;
+
+}
+
+.Everything {
+    font-weight: bold;
+}
+
+#header{
+     margin-left: 10px;
+
+     margin-right: 10px;
+    overflow:hidden;
+    height: 370px;
+    
+            }
+
+
+#header img    {
+opacity:0.5;
+    width:100%;
+    height: auto;
+}
+
+
+
+#header h1   {
+     position: absolute;
+    margin-top:-200px;
+     padding-left: 10px;
+     font-size: 40pt;
+    color: black;
+
+    }
+
+#burgers {
+border: 2px dashed white;
+    background-color: black;
+    margin-top: 10px;
+    padding-left: 10px;
+      margin-left: 10px;
+     margin-right: 10px;
+    color: white;  
+}
+
+#customers{
+    padding-left: 10px;
+     margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: black;
+    border: 2px dashed black;
+    background-color: white;
+}
+
+.wrapper {
+    color: white;
+       }
+.box {
+     color: white;
+
+    margin-top: 20px;
+
+margin-left: 20px;
+    margin-right: 20px;
+     padding-left: 20px;
+
+}
+
+.a {
+    float:left;
+    padding: 5px;
+    grid-column: 1 / span 2;
+}
+
+.b {
+    float:left;
+    padding: 5px;
+    margin-left:40px;
+    grid-column: 3 ;
+    grid-row: 1 / span 2;
+   }
+
+
+.c {
+    float:left;
+    padding: 5px;
+    margin-left:40px;
+    grid-column: 1 ;
+    grid-row: 2 ;
+}
+
+
+/*Buttons*/
+button:hover {
+
+background-color: pink;
+   cursor:pointer;
+}
+
+#buttonid{
+ margin-top: 20px;
+ padding-left: 15px;
+ margin-bottom: 15px
+}
+
