@@ -16,6 +16,32 @@ import io from 'socket.io-client'
 
 const socket = io();
 
+//Object Constructor Function
+
+function MenuItem(burger, Kcal, url, lactose, gluten) {
+ this.burgername = burger; // The *this* keyword refers to the object itself
+ this.calories = Kcal;
+this.pic = url;
+ this.lactose = lactose;
+this.gluten = gluten;
+//  this.name = function() {
+//  return this.firstName + ' ' + this.Kcal+  ' ' + this.url + ' ' + this.lactose+ ' ' +this.gluten;
+//  };
+
+}
+
+const firstBurger = new MenuItem("Healthy", 350, "pic", false, true);
+const SecondBurger = new MenuItem("Vegan", 500, "pic", false, false);
+const ThirdBurger = new MenuItem("Maximized", 650, "pic", true, true);
+
+console.log( firstBurger );
+
+
+const burgers= [firstBurger, SecondBurger, ThirdBurger];
+console.log( burgers );
+
+
+
 export default {
   name: 'Home',
   components: {
@@ -23,10 +49,7 @@ export default {
   },
   data: function () {
     return {
-      burgers: [ {name: "small burger", kCal: 250},
-                 {name: "standard burger", kCal: 450},
-                 {name: "large burger", kCal: 850}
-               ]
+      burgers: firstBurger
     }
   },
   methods: {
@@ -45,6 +68,9 @@ export default {
     }
   }
 }
+
+
+
 </script>
 
 <style>
