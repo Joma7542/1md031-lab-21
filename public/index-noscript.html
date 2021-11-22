@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<header id="header" >
+
+    <img src="/Users/josefinemattsson/Desktop/restaurant-in-valkenswaard.jpg"/>
+    <h1> Welcome to BurgerOnline </h1>
+</header>
+
+<head>
+
+    <title>Josefines hemsida</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+
+<main>
+
+    <section id="burgers">
+
+        <header>
+            <h2>Select a burger</h2>
+        </header>
+        <div class="wrapper">
+
+            <header style="color:white;">
+                This is where you execute burger selection
+            </header>
+            <div class="box a">
+
+                <header>
+                    <h1>Healthy</h1>
+                </header>
+                <img src="https://i.dietdoctor.com/se/wp-content/2016/12/Meal-Delifresh-Low-Carb-1.jpg?auto=compress%2Cformat&w=1600&h=1032&fit=crop" alt="Span" title="Another in-line element" style="width: 150px;">
+
+                <ul>
+
+                    <li> Free from <span class="gluten">Gluten</span></li>
+                    <li>Contains <span class="lactose">Lactose</span></li>
+
+                </ul>
+            </div>
+
+
+            <div class="box b">
+
+                <header>
+                    <h1>Vegan</h1>
+                </header>
+                <img src="https://www.korvbrodsbagarn.se/siteassets/receptbilder/brookyn_vegan_burger_recept_1170x790px.jpg" alt="Span" title="Another in-line element" style="width: 150px;">
+
+                <ul>
+
+                    <li> Free from <span class="lactose">Lactose</span></li>
+                    <li>Contains <span class="gluten">Gluten</span></li>
+
+                </ul>
+
+            </div>
+
+            <div class="box c">
+
+                <header>
+                    <h1>Maximized</h1>
+                </header>
+                <img src="https://kurera.se/wp-content/uploads/2015/09/bigmac_460x330.jpg" alt="Span" title="Another in-line element" style="width: 150px;">
+
+                <ul>
+
+
+                    <li>Contains <span class="gluten">Gluten</span></li>
+                    <li>Contains <span class="everything">Everything</span></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div style="Clear:left">
+            <header>
+                <h1>  </h1>
+            </header>
+        </div>
+
+    </section>
+
+
+    <section id="customers">
+        <div style="Clear:left">
+
+            <header>
+                <h2 >Customer information </h2>
+            </header>
+
+            This is where you provide necessary information
+        </div>
+
+
+        <header>
+            <h1> Delivery information: </h1>
+        </header>
+
+        <p>
+            <label for="firstname">Full name</label><br>
+            <input type="text" id="firstname" name="fn" required="required" placeholder="First-and Last name">
+        </p>
+
+        <p>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+        </p>
+
+        <p>
+            <label for="Street">Street</label><br>
+            <input type="Street" id="Street" name="st" required="required" placeholder="Street name">
+        </p>
+
+        <p>
+            <label for="House">House</label><br>
+            <input type="number" id="House" name="hn" required="required" placeholder="House number">
+        </p>
+
+
+        <label for="payment options">Payment options</label>
+
+        <select id="payment options" name="Po">
+            <option>Credit card</option>
+            <option>Klarna</option>
+            <option>Card</option>
+            <option>Apple Pay</option>
+            <option>Collector</option>
+        </select>
+
+
+        <p>Gender</p>
+
+        <div>
+            <input type="radio" id="Male" name="jos" value="Male"
+                   checked>
+            <label for="Male">Male</label>
+        </div>
+
+        <div>
+            <input type="radio" id="Female" name="jos" value="Female">
+            <label for="Female">Female</label>
+        </div>
+
+        <div>
+            <input type="radio" id="Non-binary" name="jos" value="Non-binary">
+            <label for="Non-binary">Non-binary</label>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <input type="radio" id="Undisclosed" name="jos" value="Undisclosed">
+            <label for="Undisclosed">Undisclosed</label>
+        </div>
+
+    </section>
+
+    <button id="buttonid">
+        <img src="https://arbetsmedlarna.se/wp-content/uploads/2020/12/check-1.png"style="width: 20px";>
+        Place my order!
+    </button>
+
+
+</main>
+
+</body>
+<hr>
+
+<footer>
+    &copy; 2021 Hamburgers online Inc.
+</footer>
+
+</html>
