@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Healthy",
+      "img": "img/Meal-Delifresh-Low-Carb-1.jpeg",
+      "kCal": 250,
+      "gluten": false,
+      "lactose": true
+  
+    },
+    {
+      "name": "Vegan",
+      "img": "img/brookyn_vegan_burger_recept_1170x790px.jpeg",
+      "kCal": 400,
+      "gluten": true,
+      "lactose": true
+    },
+    {
+      "name": "Maximized",
+      "img": "img/bigmac_460x330.jpeg",
+      "kCal": 650,
+      "gluten": true,
+      "lactose": true
+    }
+  ]
+ 
+  
